@@ -1,0 +1,23 @@
+{
+  "navigationBarBackgroundColor": "#099C99",
+  "titleNView": {
+    "style": "transparent",
+    "titleText": "我的钱包",
+    "titleColor": "#FFFFFF",
+    "autoBackButton": true,
+    "buttons": [
+      {
+        "text": "明细",
+        "fontSize": "34upx",
+        "float": "right",
+        "color": "#FFFFFF",
+        "onclick": "clickButton"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "action": "/components/shufei-action/action"
+  }
+}

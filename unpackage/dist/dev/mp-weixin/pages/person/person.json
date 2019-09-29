@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#099C99",
+  "usingComponents": {
+    "cmd-avatar": "/components/cmd-avatar/cmd-avatar",
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item",
+    "cmd-icon": "/components/cmd-icon/cmd-icon",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}

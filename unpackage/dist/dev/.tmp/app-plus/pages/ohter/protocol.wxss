@@ -1,0 +1,9 @@
+
+page{
+	background:#fff
+}
+view{
+	width:94%;
+	margin:30rpx auto
+}
+

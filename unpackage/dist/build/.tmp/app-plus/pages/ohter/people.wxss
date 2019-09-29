@@ -1,0 +1,90 @@
+
+.add {
+	text-align: center;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 300rpx;
+	height: 350rpx;
+}
+.img-people {
+	width: 169rpx;
+	height: 169rpx;
+	position: relative;
+	display: block;
+	margin: auto;
+	vertical-align: middle;
+}
+.add-people {
+	width: 224rpx;
+	height: 88rpx;
+	background: #11d6d3;
+	border-radius: 4rpx;
+	font-size: 32rpx;
+	line-height: 88rpx;
+}
+.people {
+	height: 206rpx;
+	width: 100%;
+	background-color: #ffffff;
+	margin: 10rpx;
+	line-height: 206rpx;
+	overflow: hidden;
+}
+.people-url {
+	width: 116rpx;
+	height: 116rpx;
+	vertical-align: middle;
+	margin: 0 20rpx;
+}
+.people-text {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: rgba(51, 51, 51, 1);
+}
+.people-text text {
+	font-weight: 500;
+	color: rgba(153, 153, 153, 1);
+	margin-left: 20rpx;
+}
+.people-delete {
+	height: 48rpx;
+	width: 69rpx;
+	vertical-align: middle;
+	float: right;
+	margin-top: 79rpx;
+	margin-right: 50rpx;
+}
+.none{
+	width:225rpx;
+	height:300rpx;
+	text-align:center;
+	/* position:absolute;
+	margin:auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0 */
+	margin:400rpx auto;
+}
+.none>image{
+	display:block;
+	width:169rpx;
+	height:169rpx;
+	margin:0 auto;
+}
+.none>text{
+	font-size:30rpx;
+}
+.none>button{
+	width:100%;
+	height:88rpx;
+	margin-top:40rpx;
+	background:#11D6D3;
+	color:#fff;
+}
+

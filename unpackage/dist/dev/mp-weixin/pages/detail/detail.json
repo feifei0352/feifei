@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "租房详情",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uniSwiperDot/uni-swiper-dot"
+  }
+}

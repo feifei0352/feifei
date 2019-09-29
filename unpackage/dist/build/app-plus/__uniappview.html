@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"E租客","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"E租客","navigationBarBackgroundColor":"#2CC3BE","navigationBarTextStyle":"white","enablePullDownRefresh":true,"usingComponents":{"uni-grid":"/components/uni-grid/uni-grid","uni-popup":"/components/uni-popup/uni-popup","uni-badge":"/components/uni-badge/uni-badge"}}},"pages/index/guide.html":{"window":{"navigationBarTitleText":"","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"","navigationBarBackgroundColor":"","titleNView":false,"usingComponents":{}}},"pages/login/agreement.html":{"window":{"navigationBarTitleText":"用户协议","navigationBarBackgroundColor":"#fff","usingComponents":{}}},"pages/nav/nav.html":{"window":{"navigationBarTitleText":"消息","navigationBarBackgroundColor":"#2CC3BE","navigationBarTextStyle":"white","enablePullDownRefresh":true,"usingComponents":{"cmd-avatar":"/components/cmd-avatar/cmd-avatar","cmd-icon":"/components/cmd-icon/cmd-icon","cmd-cell-item":"/components/cmd-cell-item/cmd-cell-item"}}},"pages/person/person.html":{"window":{"enablePullDownRefresh":true,"navigationBarTitleText":"","navigationBarTextStyle":"white","navigationBarBackgroundColor":"#099C99","titleNView":false,"usingComponents":{"cmd-avatar":"/components/cmd-avatar/cmd-avatar","cmd-cell-item":"/components/cmd-cell-item/cmd-cell-item","cmd-icon":"/components/cmd-icon/cmd-icon","uni-nav-bar":"/components/uni-nav-bar/uni-nav-bar","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/ohter/setting.html":{"window":{"navigationBarTitleText":"账号设置","navigationBarBackgroundColor":"#2CC3BE","usingComponents":{"uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item"}}},"pages/ohter/protocol.html":{"window":{"navigationBarTitleText":"用户协议","navigationBarBackgroundColor":"#fff","usingComponents":{}}},"pages/person/myInformation.html":{"window":{"navigationBarBackgroundColor":"#fff","navigationBarTitleText":"个人信息","titleNView":{"titleText":"个人信息","buttons":[{"text":"保存","fontSize":"18","redDot":false,"color":"#09B8B5","width":"60","onclick":"submit"}]},"usingComponents":{"cmd-cell-item":"/components/cmd-cell-item/cmd-cell-item"}}},"pages/ohter/wallet.html":{"window":{"navigationBarBackgroundColor":"#099C99","titleNView":{"style":"transparent","titleText":"我的钱包","titleColor":"#FFFFFF","autoBackButton":true,"buttons":[{"text":"明细","fontSize":"34upx","float":"right","color":"#FFFFFF","onclick":"clickButton"}]},"usingComponents":{"uni-list":"/components/uni-list/uni-list","uni-list-item":"/components/uni-list-item/uni-list-item","action":"/components/shufei-action/action"}}},"pages/ohter/balance.html":{"window":{"navigationBarTitleText":"余额明细","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}}},"pages/ohter/reCharge.html":{"window":{"navigationBarTitleText":"充值","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup","uni-icon":"/components/uni-icon/uni-icon"}}},"pages/ohter/withdraw.html":{"window":{"navigationBarBackgroundColor":"ffffff","navigationBarTitleText":"提现","usingComponents":{"cmd-cell-item":"/components/cmd-cell-item/cmd-cell-item","cmd-avatar":"/components/cmd-avatar/cmd-avatar"}}},"pages/ohter/AlipayCash.html":{"window":{"navigationBarBackgroundColor":"ffffff","navigationBarTitleText":"输入提现账号","usingComponents":{}}},"pages/ohter/chooseBankCard.html":{"window":{"navigationBarTitleText":"","navigationBarBackgroundColor":"#fff","usingComponents":{"action":"/components/shufei-action/action"}}},"pages/ohter/addCard.html":{"window":{"navigationBarTitleText":"添加银行卡","navigationBarBackgroundColor":"#fff","usingComponents":{}}},"pages/ohter/people.html":{"window":{"navigationBarTitleText":"同住人","navigationBarBackgroundColor":"#FFFFFF","titleNView":{"style":"transparent","titleText":"同住人","autoBackButton":true,"buttons":[{"text":"+","float":"right","onclick":"clickButton"}]},"usingComponents":{}}},"pages/ohter/addPeople.html":{"window":{"navigationBarTitleText":"添加同住人","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"cmd-cell-item":"/components/cmd-cell-item/cmd-cell-item"}}},"pages/ohter/contact.html":{"window":{"navigationBarTitleText":"联系我们","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/ohter/about.html":{"window":{"navigationBarTitleText":"关于我们","navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}}},"pages/module/rentHouse.html":{"window":{"navigationBarTitleText":"我的租房","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/detail/detail.html":{"window":{"navigationBarTitleText":"租房详情","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-swiper-dot":"/components/uniSwiperDot/uni-swiper-dot","uni-icon":"/components/uni-icon/uni-icon"}}},"pages/module/landlord/news.html":{"window":{"navigationBarTitleText":"房东消息","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-card":"/components/uni-card/uni-card","uni-popup":"/components/uni-popup/uni-popup","sen-set-picker":"/components/sen-pickerview/picker-view-set","uni-badge":"/components/uni-badge/uni-badge"}}},"pages/detail/map.html":{"window":{"navigationBarTitleText":"地图详情","navigationBarBackgroundColor":"#2CC3BE","usingComponents":{}}},"pages/module/landlord.html":{"window":{"navigationBarTitleText":"我的房东","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-badge":"/components/uni-badge/uni-badge"}}},"pages/module/landlord/landlord_detail.html":{"window":{"navigationBarTitleText":"房东详情","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","uni-badge":"/components/uni-badge/uni-badge"}}},"pages/module/contract.html":{"window":{"navigationBarTitleText":"租房合同","navigationBarBackgroundColor":"#2CC3BE","usingComponents":{}}},"pages/module/rates.html":{"window":{"navigationBarTitleText":"交租费","navigationBarBackgroundColor":"#fff","titleNView":{"buttons":[{"text":"账单","fontSize":"18","redDot":false,"color":"#000","width":"60"}]},"usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","uni-popup":"/components/uni-popup/uni-popup"}}},"pages/module/bill.html":{"window":{"navigationBarTitleText":"账单","navigationBarBackgroundColor":"#fff","enablePullDownRefresh":true,"usingComponents":{}}},"pages/module/pretendfriends.html":{"window":{"navigationBarTitleText":"我的租友","navigationBarBackgroundColor":"#2CC3BE","usingComponents":{"cmd-avatar":"/components/cmd-avatar/cmd-avatar","cmd-cell-item":"/components/cmd-cell-item/cmd-cell-item","cmd-icon":"/components/cmd-icon/cmd-icon"}}},"pages/module/contractDetail.html":{"window":{"navigationBarTitleText":"合同详情","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon"}}},"pages/module/request.html":{"window":{"navigationBarTitleText":"","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-icon":"/components/uni-icon/uni-icon","sen-set-picker":"/components/sen-pickerview/picker-view-set"}}},"pages/module/friendDetail.html":{"window":{"navigationBarTitleText":"租友","navigationBarBackgroundColor":"#fff","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/module/complain.html":{"window":{"navigationBarTitleText":"向房东投诉租友","navigationBarBackgroundColor":"#fff","navigationBarFontSize":"18","titleNView":{"buttons":[{"text":"提交","fontSize":"18","redDot":false,"color":"#09B8B5","width":"60"}]},"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#FF0000","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#cdcdcd","selectedColor":"#39cffc","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/nav/tabbar_home_unchosen.png","selectedIconPath":"static/nav/tabbar_home.png","text":"首页"},{"pagePath":"pages/nav/nav.html","iconPath":"static/nav/tabbar_messageunchosen.png","selectedIconPath":"static/nav/tabbar_message.png","text":"消息"},{"pagePath":"pages/person/person.html","iconPath":"static/nav/tabbar_mineunchosen.png","selectedIconPath":"static/nav/tabbar_mine.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/index/guide","pages/login/login","pages/login/agreement","pages/index/index","pages/nav/nav","pages/person/person","pages/ohter/setting","pages/ohter/protocol","pages/person/myInformation","pages/ohter/wallet","pages/ohter/balance","pages/ohter/reCharge","pages/ohter/withdraw","pages/ohter/AlipayCash","pages/ohter/chooseBankCard","pages/ohter/addCard","pages/ohter/people","pages/ohter/addPeople","pages/ohter/contact","pages/ohter/about","pages/module/rentHouse","pages/detail/detail","pages/module/landlord/news","pages/detail/map","pages/module/landlord","pages/module/landlord/landlord_detail","pages/module/contract","pages/module/rates","pages/module/bill","pages/module/pretendfriends","pages/module/contractDetail","pages/module/request","pages/module/friendDetail","pages/module/complain"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.2.2","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

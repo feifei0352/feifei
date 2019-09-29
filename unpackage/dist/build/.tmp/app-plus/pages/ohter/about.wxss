@@ -1,0 +1,17 @@
+
+page{
+	background:#fff
+}
+._p {
+	font-size: 34rpx;
+	line-height:50rpx;
+}
+._p.title{
+	margin-bottom:50rpx;
+}
+.about-contant{
+	width: 94%;
+	margin-left: 3%;
+	padding:50rpx 0;
+}
+

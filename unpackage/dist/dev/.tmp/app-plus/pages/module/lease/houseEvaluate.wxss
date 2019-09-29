@@ -1,0 +1,58 @@
+
+.house-info.data-v-07b0ff86{
+	padding:46rpx 28rpx;
+}
+.house-info>image.data-v-07b0ff86{
+	width:216rpx;
+	height:162rpx
+}
+.basic-info.data-v-07b0ff86{
+	display:inline-block;
+	vertical-align: top;
+	font-size:34rpx;
+	font-weight:bold;
+	padding:19rpx 29rpx;
+}
+.basic-info>text.data-v-07b0ff86:last-child{
+	display:block;
+	color:#999999;
+	font-size:26rpx;
+	margin-top:21rpx;
+	font-weight:500;
+}
+.title.data-v-07b0ff86{
+	font-weight:bold;
+	display:inline-block;
+	height:34rpx;
+	font-size:34rpx;
+}
+.evaluate.data-v-07b0ff86{
+	text-align: center;
+}
+.title.data-v-07b0ff86:before,.title.data-v-07b0ff86:after{
+	content:'';
+	display:inline-block;
+	width:112rpx;
+	height:0;
+	border-top:1rpx solid #E0E0E0;	
+	border-right:41rpx solid #fff;
+	border-left:41rpx solid #fff;
+	vertical-align: middle;
+}
+.context.data-v-07b0ff86{
+	text-align: left;
+	padding:34rpx 32rpx
+}
+.context>textarea.data-v-07b0ff86{
+	margin:0 auto
+}
+.submits.data-v-07b0ff86{
+	width:678rpx;
+	height:88rpx;
+	background:#099C99;
+	opacity: .3;
+	border-radius:4rpx;
+	color:#fff;
+	margin:54rpx auto;
+}
+

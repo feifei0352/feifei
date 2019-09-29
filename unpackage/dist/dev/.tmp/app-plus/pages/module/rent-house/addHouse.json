@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加我的租房",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item"
+  }
+}

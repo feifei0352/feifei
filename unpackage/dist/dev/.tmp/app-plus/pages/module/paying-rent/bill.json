@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账单",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "model": "/components/model/model"
+  }
+}

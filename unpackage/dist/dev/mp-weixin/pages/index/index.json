@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "E租客",
+  "navigationBarBackgroundColor": "#2CC3BE",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid"
+  }
+}

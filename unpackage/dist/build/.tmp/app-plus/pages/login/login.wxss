@@ -1,0 +1,15 @@
+
+page {
+	background-color: #ffffff;
+}
+.input-box{
+	width: 80%;
+	margin: 0 auto;
+}
+button.btn-code{
+	border:1px solid #11D6D3;
+	color: #11D6D3;
+	float: right;
+	width: 200rpx;
+}
+

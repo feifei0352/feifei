@@ -1,0 +1,2 @@
+setCssToHead(["body { background-color: #ffffff; }\n.",[1],"input-box{ width: 80%; margin: 0 auto; }\nwx-button.",[1],"btn-code{ border:1px solid #11D6D3; color: #11D6D3; float: right; width: ",[0,200],"; }\n",],undefined,{path:"./pages/login/login.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/login.wxml') } }));

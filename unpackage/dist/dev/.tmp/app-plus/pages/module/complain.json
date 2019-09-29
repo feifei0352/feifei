@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "向房东投诉租友",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarFontSize": "18",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "提交",
+        "fontSize": "18",
+        "redDot": false,
+        "color": "#09B8B5",
+        "width": "60"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

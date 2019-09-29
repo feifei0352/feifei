@@ -1,0 +1,41 @@
+
+page{
+		background:#F5F5F5
+}
+.message-contain{
+		margin-top:22rpx;
+		background:#fff;
+		/* padding:0 36upx; */
+}
+.message-left{
+		width:100rpx;
+		height:100rpx;
+		position:relative
+}
+.message-icon{
+        width:100rpx;
+		height:100rpx;
+}
+.message-dot{
+		display:inline-block;
+		width:16rpx;
+		height:16rpx;
+		background:rgba(230,77,69,1);
+		border:2rpx solid rgba(255, 255, 255, 1);
+		border-radius:50%;
+		position:absolute;
+		top:0;
+		left:80rpx;
+}
+.none{
+		text-align: center;
+		font-size:30rpx;
+		color:#333333;
+		margin-top:224rpx;
+		background-color: #F5F5F5;
+}
+.none image{
+		width:169rpx;
+		height:169rpx
+}
+

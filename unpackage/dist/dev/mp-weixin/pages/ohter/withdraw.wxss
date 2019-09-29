@@ -1,0 +1,34 @@
+
+.withdraw-title{
+	text-align:center;
+	color:#999999;
+	font-size:28rpx;
+	margin:0 36rpx;
+}
+.widthdraw-input{
+	text-align:center;
+	height:150rpx;
+	border-bottom:2rpx solid #CED1D6;
+	margin:36rpx 36rpx 54rpx 36rpx;
+}
+.widthdraw-input>input{
+	height:120rpx;
+	line-height: 120rpx;
+	font-size:100rpx;
+}
+.withdraw-account{
+	height:100rpx;
+	border-top:1rpx solid #EBEDF0
+}
+.withdraw-submit{
+	margin-top:65rpx;
+}
+.withdraw-submit>button{
+	width:678rpx;
+	height:88rpx;
+	background:rgba(44,195,190,1);
+	opacity:0.5;
+	-webkit-border-radius:4rpx;
+	        border-radius:4rpx;
+}
+

@@ -1,0 +1,52 @@
+
+page{
+		background:#F5F5F5
+}
+.pretendfriends-contain{
+		height:100rpx;
+		line-height: 100rpx;
+		border-bottom:1rpx solid rgba(235,235,235,1);
+		width:100%;
+		font-size: 30rpx;
+		margin-top:24rpx;
+}
+.pretendfriend-house{
+	   color:#666666;
+	   font-seight:500rpx;
+	   padding:0 32rpx;
+}
+.pretendfriend-house>text{
+	   height:60rpx;
+	   text-align: center;
+	   padding-left:20rpx;
+	   line-height: 60rpx;
+	   margin-top:24rpx;
+	   display:inline-block;
+	   float:right;
+	   color:#2FC38D;
+	   border-left: 1px solid rgba(235,235,235,1);
+}
+.dated .pretendfriend-house>text{
+	   color:#999999
+}
+.pretendfriend-house>image{
+	  width:30rpx;
+	  height:30rpx;
+	  vertical-align:middle;
+}
+.dated,.present{
+	  background:#fff
+}
+.dated{
+	  margin-top:18rpx;
+}
+.gray { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);   
+    filter: grayscale(100%);
+    -webkit-filter: gray;
+            filter: gray;
+}
+

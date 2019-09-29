@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发布评价",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "star": "/components/my-star/my-star"
+  }
+}

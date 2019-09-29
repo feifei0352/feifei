@@ -1,0 +1,20 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "个人信息",
+  "titleNView": {
+    "titleText": "个人信息",
+    "buttons": [
+      {
+        "text": "保存",
+        "fontSize": "18",
+        "redDot": false,
+        "color": "#09B8B5",
+        "width": "60",
+        "onclick": "submit"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item"
+  }
+}

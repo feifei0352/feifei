@@ -1,0 +1,1 @@
+<view><view class="logo"><image class="logo-img" src="../../static/other/logo.png" mode></image></view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="item"><view class="contact-list"><text class="contact-left">{{item.title}}</text><text class="contact-right">{{item.value}}</text></view></block></view>

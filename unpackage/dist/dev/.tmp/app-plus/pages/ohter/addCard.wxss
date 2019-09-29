@@ -1,0 +1,47 @@
+
+.forms{
+  margin-top:22rpx;
+}
+.people-information {
+	background: #fff;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.common-left {
+	display: inline-block;
+	width: 30%;
+	height: 80rpx;
+	font-size: 32rpx;
+	background-color: #ffffff;
+	line-height: 80rpx;
+}
+.common-text {
+	position: absolute;
+	left: 50rpx;
+}
+.common-right {
+	position: absolute;
+	display: inline-block;
+	width: 70%;
+	height: 80rpx;
+	background-color: #ffffff;
+	border-color: transparent;
+	text-align: right;
+	font-size: 32rpx;
+}
+.common-right input,.common-right text{
+	height: 60rpx;
+	position: absolute;
+	right: 30rpx;
+	top: 10rpx;
+}
+.submit {
+	margin-top: 58rpx;
+}
+.submit > button {
+	width: 678rpx;
+	height: 88rpx;
+	border-radius: 4rpx;
+	opacity: 0.5;
+	color: #fff;
+}
+

@@ -1,0 +1,2 @@
+setCssToHead(["body{ background:#fff }\n.",[1],"_p { font-size: ",[0,34],"; line-height:",[0,50],"; }\n.",[1],"_p.",[1],"title{ margin-bottom:",[0,50],"; }\n.",[1],"about-contant{ width: 94%; margin-left: 3%; padding:",[0,50]," 0; }\n",],undefined,{path:"./pages/ohter/about.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ohter/about.wxml') } }));

@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "交租费",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "账单",
+        "fontSize": "18",
+        "redDot": false,
+        "color": "#000",
+        "width": "60"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon/uni-icon",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/guide",
+    "pages/login/login",
+    "pages/login/agreement",
+    "pages/index/index",
+    "pages/nav/nav",
+    "pages/person/person",
+    "pages/ohter/setting",
+    "pages/ohter/protocol",
+    "pages/person/myInformation",
+    "pages/ohter/wallet",
+    "pages/ohter/balance",
+    "pages/ohter/reCharge",
+    "pages/ohter/withdraw",
+    "pages/ohter/AlipayCash",
+    "pages/ohter/chooseBankCard",
+    "pages/ohter/addCard",
+    "pages/ohter/people",
+    "pages/ohter/addPeople",
+    "pages/ohter/contact",
+    "pages/ohter/about",
+    "pages/module/rentHouse",
+    "pages/detail/detail",
+    "pages/module/landlord/news",
+    "pages/detail/map",
+    "pages/module/landlord",
+    "pages/module/landlord/landlord_detail",
+    "pages/module/contract",
+    "pages/module/rates",
+    "pages/module/bill",
+    "pages/module/pretendfriends",
+    "pages/module/contractDetail",
+    "pages/module/request",
+    "pages/module/friendDetail",
+    "pages/module/complain"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FF0000",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#39cffc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/nav/tabbar_home_unchosen.png",
+        "selectedIconPath": "static/nav/tabbar_home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/nav/nav",
+        "iconPath": "static/nav/tabbar_messageunchosen.png",
+        "selectedIconPath": "static/nav/tabbar_message.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "static/nav/tabbar_mineunchosen.png",
+        "selectedIconPath": "static/nav/tabbar_mine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "E租客",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}

@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "待缴租费",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "账单明细",
+        "fontSize": "18",
+        "redDot": false,
+        "color": "#333333",
+        "width": "100"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-icon": "/components/uni-icon/uni-icon"
+  }
+}

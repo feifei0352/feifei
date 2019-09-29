@@ -1,0 +1,2 @@
+setCssToHead(["wx-map { }\n",],undefined,{path:"./pages/detail/map.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/detail/map.wxml') } }));

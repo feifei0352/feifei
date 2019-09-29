@@ -1,0 +1,2 @@
+setCssToHead(["body{ background:#fff }\nwx-view{ width:94%; margin:",[0,30]," auto }\n",],undefined,{path:"./pages/ohter/protocol.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ohter/protocol.wxml') } }));

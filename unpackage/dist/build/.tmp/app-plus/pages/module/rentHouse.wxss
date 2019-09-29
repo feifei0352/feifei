@@ -1,0 +1,86 @@
+
+page {
+	background: #f2f2f2;
+}
+.top {
+	width: 100%;
+	text-align: center;
+	line-height: 42px;
+	white-space: nowrap;
+	position: relative;
+	background: #fff;
+}
+.contact-tabbar {
+	width: 50%;
+	font-size: 18px;
+	height: 42px;
+	display: inline-block;
+	color: #000;
+}
+.tabbar-bottom {
+	color: #22c7c7;
+}
+.tabbar-bottom ._span {
+	border-bottom: 4px solid #22c7c7;
+	padding-bottom: 6px;
+}
+.contact-item {
+	background: #fff;
+	margin: 30rpx 0;
+}
+swiper,
+swiper-item {
+	height: 900rpx;
+}
+.contact-item-area {
+	font-size: 30rpx;
+	font-weight: 500;
+	color: rgba(102, 102, 102, 1);
+	padding: 36rpx 39rpx;
+	border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+.contact-item-area > image {
+	width: 25rpx;
+	height: 25rpx;
+	margin-right: 12rpx;
+	margin-top: 6rpx;
+	float: left;
+}
+.contact-item-area ._span {
+	float: right;
+}
+.contact-item-year {
+	padding: 36rpx 39rpx;
+}
+.contact-item-y {
+	font-size: 30rpx;
+	color: #333333;
+	margin-bottom: 10rpx;
+	display: inline-block;
+}
+.contact-item-y > ._p {
+	font-size: 30rpx;
+	color: #999999;
+	line-height: 40rpx;
+}
+.none {
+	text-align: center;
+	font-size: 30rpx;
+	color: #333333;
+	margin-top: 224rpx;
+}
+.none image {
+	width: 169rpx;
+	height: 169rpx;
+}
+.contact-item-right {
+	float: right;
+	font-size: 28rpx;
+	margin-top: 20rpx;
+}
+text{
+	display: inline-block;
+	width: 80%;
+	word-wrap:break-word;
+}
+

@@ -1,0 +1,32 @@
+
+.list ._li{
+	background-color: #fff;
+	padding: 30rpx 0;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	color: #333333;
+}
+.list ._li:last-child{
+	border-color: #fff;
+}
+.list ._li view{
+	padding:0 50rpx;
+}
+.list ._li view ._span:last-child{
+	float: right;
+}
+.list ._li .top{
+	line-height: 80rpx;
+	font-weight: 600;
+}
+.list ._li .bottom{
+	font-size: 28rpx;
+	color: #999;
+}
+.list ._li .top>._span:last-child{
+	color: #4AC767;
+}
+.list ._li .top>._span.profit{
+	color: #FA9725;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#099C99",
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "action": "/components/shufei-action/action"
+  }
+}

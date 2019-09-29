@@ -1,0 +1,543 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页
+		{
+			"path": "pages/module/rent-house/houseDetail",
+			"style": {
+				"navigationBarTitleText": "租房详情",
+				"navigationBarBackgroundColor": "#fff"
+				//"enablePullDownRefresh": true //开启下拉刷新
+			}
+		},
+		{
+			"path": "pages/module/rent-house/rentHouse",
+			"style": {
+				"navigationBarTitleText": "我的租房",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "E租客",
+				"navigationBarBackgroundColor": "#2CC3BE"
+			}
+		},
+		{
+			"path": "pages/index/guide", //启动页面，必选
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/login/login", //启动页面，必选
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+		    "path" : "pages/login/forgetPassword",
+		    "style": {
+		    	"navigationBarTitleText": "忘记密码",
+		    	"navigationBarBackgroundColor": "#FFFFFF"
+		    }
+		},
+		{
+		    "path" : "pages/login/setPassword",
+		    "style": {
+		    	"navigationBarTitleText": "修改密码",
+		    	"navigationBarBackgroundColor": "#FFFFFF"
+		    }
+		},
+		{
+		    "path" : "pages/login/bindPhone",
+		    "style": {
+		    	"navigationBarTitleText": "绑定手机号",
+		    	"navigationBarBackgroundColor": "#FFFFFF"
+		    }
+		},
+		{
+			"path": "pages/login/agreement", //启动页面，必选
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "E租客",
+				"navigationBarBackgroundColor": "#2CC3BE",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/nav/nav",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#2CC3BE",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#099C99",
+				"app-plus": {
+					"titleNView": false
+				}
+				//"enablePullDownRefresh": true //开启下拉刷新
+			}
+		}, {
+			"path": "pages/ohter/setting",
+			"style": {
+				"navigationBarTitleText": "账号设置",
+				"navigationBarBackgroundColor": "#2CC3BE"
+			}
+		},
+		{
+			"path": "pages/ohter/protocol",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// {
+		// 	"path": "pages/ohter/wallet",
+		// 	"style": {
+		// 		"navigationBarBackgroundColor": "#099C99",
+		// 		"app-plus": {
+		// 			"titleNView": {
+		// 				"style": "transparent",
+		// 				//"backgroundColor": "#D74B28",
+		// 				"titleText": "我的钱包",
+		// 				"titleColor": "#FFFFFF",
+		// 				"autoBackButton": true,
+		// 				"buttons": [{
+		// 					"text": "明细",
+		// 					"fontSize": "34upx",
+		// 					"float": "right",
+		// 					"color": "#FFFFFF",
+		// 					"onclick": "clickButton"
+		// 				}]
+		// 			}
+		// 		}
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/ohter/balance",
+		// 	"style": {
+		// 		"navigationBarTitleText": "余额明细",
+		// 		"navigationBarBackgroundColor": "#FFFFFF"
+		// 	}
+		// },
+		{
+			"path": "pages/person/myInformation",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "个人信息",
+				"app-plus": {
+					"titleNView": {
+						"titleText": "个人信息",
+						"buttons": [{
+							"text": "保存",
+							"fontSize": "18",
+							"redDot": false,
+							"color": "#09B8B5",
+							"width": "60",
+							"onclick": "submit"
+						}]
+					}
+				}
+			}
+
+		},
+		{
+			"path": "pages/ohter/wallet",
+			"style": {
+				"navigationBarBackgroundColor": "#099C99",
+				"app-plus": {
+					"titleNView": {
+						"style": "transparent",
+						//"backgroundColor": "#D74B28",
+						"titleText": "我的钱包",
+						"titleColor": "#FFFFFF",
+						"autoBackButton": true,
+						"buttons": [{
+							"text": "明细",
+							"fontSize": "34upx",
+							"float": "right",
+							"color": "#FFFFFF",
+							"onclick": "clickButton"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ohter/balance",
+			"style": {
+				"navigationBarTitleText": "余额明细",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ohter/reCharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ohter/withdraw",
+			"style": {
+				"navigationBarBackgroundColor": "ffffff",
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/ohter/AlipayCash",
+			"style": {
+				"navigationBarBackgroundColor": "ffffff",
+				"navigationBarTitleText": "输入提现账号"
+			}
+		},
+		{
+			"path": "pages/ohter/chooseBankCard",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/ohter/addCard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/ohter/people",
+			"style": {
+				"navigationBarTitleText": "同住人",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					// 	"titleNView": {
+					// 		"badgeText": "++++++++",
+					// 		"background": "rgb(44, 195, 190)",
+					// 		"color": "rgba(0,0,0,1)",
+					// 		"fontWeight": "bold",
+					// 		"fontSize": "32upx"
+					// 	}
+					"titleNView": {
+						"style": "transparent",
+						//"backgroundColor": "#D74B28",
+						"titleText": "同住人",
+						//"titleColor": "#CCCCCC",
+						"autoBackButton": true,
+						"buttons": [{
+							"text": "+",
+							"float": "right",
+							"onclick": "clickButton"
+						}]
+					}
+				}
+
+			}
+		},
+		{
+			"path": "pages/ohter/addPeople",
+			"style": {
+				"navigationBarTitleText": "添加同住人",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ohter/contact",
+			"style": {
+				"navigationBarTitleText": "联系我们",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ohter/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		// {
+		// 	"path": "pages/module/rentHouse",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的租房",
+		// 		"navigationBarBackgroundColor": "#fff"
+		// 	}
+		// },
+		{
+			"path": "pages/module/rent-house/addHouse",
+			"style": {
+				"navigationBarTitleText": "添加我的租房",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path":"pages/module/lease/myLease",
+			"style": {
+				"navigationBarTitleText":"我的租约",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/lease/leaseDetail",
+			"style": {
+				"navigationBarTitleText":"租约详情",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/lease/houseEvaluate",
+			"style": {
+				"navigationBarTitleText":"发布评价",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/find-house/findHouse",
+			"style": {
+				"navigationBarTitleText":"我要找房",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/find-house/perfect-infomation",
+			"style": {
+				"navigationBarTitleText":"完善个人信息",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/find-house/houseorigin-detail",
+			"style": {
+				"navigationStyle":"custom"	
+			}
+		},
+		{
+			"path":"pages/module/find-house/inform",
+			"style": {
+				"navigationBarTitleText":"举报",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/paying-rent/payingRent",
+			"style": {
+				"navigationBarTitleText":"待缴租费",
+				"navigationBarBackgroundColor":"#fff",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "账单明细",
+							"fontSize": "18",
+							"redDot": false,
+							"color": "#333333",
+							"width": "100"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/module/paying-rent/bill",
+			"style": {
+				"navigationBarTitleText":"账单",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/paying-rent/bill-detail",
+			"style": {
+				"navigationBarTitleText":"账单详情",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		{
+			"path":"pages/module/paying-rent/coupon",
+			"style": {
+				"navigationBarTitleText":"选择优惠券",
+				"navigationBarBackgroundColor":"#fff"
+			}
+		},
+		// {
+		// 	"path": "pages/detail/detail",
+		// 	"style": {
+		// 		"navigationBarTitleText": "租房详情",
+		// 		"navigationBarBackgroundColor": "#fff"
+		// 		//"enablePullDownRefresh": true //开启下拉刷新
+		// 	}
+		// },
+		{
+			"path": "pages/module/landlord/news",
+			"style": {
+				"navigationBarTitleText": "房东消息",
+				"navigationBarBackgroundColor": "#fff"
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/map",
+			"style": {
+				"navigationBarTitleText": "地图详情",
+				"navigationBarBackgroundColor": "#2CC3BE"
+			}
+		},
+		{
+			"path": "pages/module/landlord",
+			"style": {
+				"navigationBarTitleText": "我的房东",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/module/landlord/landlord_detail",
+			"style": {
+				"navigationBarTitleText": "房东详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/module/contract",
+			"style": {
+				"navigationBarTitleText": "租房合同",
+				"navigationBarBackgroundColor": "#2CC3BE"
+			}
+		},
+		{
+			"path": "pages/module/rates",
+			"style": {
+				"navigationBarTitleText": "交租费",
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "账单",
+							"fontSize": "18",
+							"redDot": false,
+							"color": "#000",
+							"width": "60"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/module/bill",
+			"style": {
+				"navigationBarTitleText": "账单",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/module/pretendfriends",
+			"style": {
+				"navigationBarTitleText": "我的租友",
+				"navigationBarBackgroundColor": "#2CC3BE"
+			}
+		},
+		{
+			"path": "pages/module/contractDetail",
+			"style": {
+				"navigationBarTitleText": "合同详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/module/request",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/module/friendDetail",
+			"style": {
+				"navigationBarTitleText": "租友",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/module/complain",
+			"style": {
+				"navigationBarTitleText": "向房东投诉租友",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarFontSize": "18",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "提交",
+							"fontSize": "18",
+							"redDot": false,
+							"color": "#09B8B5",
+							"width": "60"
+						}]
+					}
+				}
+			}
+		}
+    ],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FF0000",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#39cffc",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/nav/tabbar_home_unchosen.png",
+				"selectedIconPath": "static/nav/tabbar_home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/nav/nav",
+				"iconPath": "static/nav/tabbar_messageunchosen.png",
+				"selectedIconPath": "static/nav/tabbar_message.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/person/person",
+				"iconPath": "static/nav/tabbar_mineunchosen.png",
+				"selectedIconPath": "static/nav/tabbar_mine.png",
+				"text": "我的"
+			}
+		]
+	},
+
+	"condition": { //模式配置，仅开发期间生效
+		"current": 1, //当前激活的模式（list 的索引项）
+		"list": [{
+			"name": "登录", //模式名称
+			"path": "pages/login/login", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+		}, {
+			"name": "主页", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到。uid=100&t=1535987051
+		}]
+	}
+}

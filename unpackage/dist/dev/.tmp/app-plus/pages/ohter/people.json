@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "同住人",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "titleNView": {
+    "style": "transparent",
+    "titleText": "同住人",
+    "autoBackButton": true,
+    "buttons": [
+      {
+        "text": "+",
+        "float": "right",
+        "onclick": "clickButton"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

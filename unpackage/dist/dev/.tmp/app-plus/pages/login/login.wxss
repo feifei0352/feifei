@@ -1,0 +1,47 @@
+
+page {
+	background-color: #ffffff;
+}
+.input-box{
+	width: 80%;
+	margin: 0 auto;
+}
+button.btn-code{
+	border:1px solid #11D6D3;
+	color: #11D6D3;
+	float: right;
+	width: 200rpx;
+}
+.oauth-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.oauth-image {
+    width: 100rpx;
+    height: 100rpx;
+    /* border: 1upx solid #dddddd; */
+    border-radius: 100rpx;
+    margin: 0 40rpx;
+    background-color: #ffffff;
+}
+.oauth-image image {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+}
+

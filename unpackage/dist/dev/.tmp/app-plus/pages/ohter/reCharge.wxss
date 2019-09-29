@@ -1,0 +1,107 @@
+
+.withdraw-title {
+	font-size: 28rpx;
+	margin: 0 36rpx;
+}
+.widthdraw-input {
+	height: 150rpx;
+	margin: 36rpx 36rpx 54rpx 36rpx;
+	border-bottom:1rpx solid #CED1D6;
+}
+.widthdraw-input>text{
+	font-size:68rpx;
+	font-weight:600;
+	height:150rpx;
+	line-height: 150rpx;
+	vertical-align: middle;
+}
+.widthdraw-input > input {
+	width:80%;
+	display:inline-block;
+	height: 100rpx;
+	line-height: 100rpx;
+	vertical-align: middle;
+	font-size: 80rpx;
+}
+.withdraw-account {
+	height: 100rpx;
+}
+.withdraw-submit {
+	margin-top: 65rpx;
+}
+.withdraw-submit > button {
+	width: 678rpx;
+	height: 88rpx;
+	background: #2CC3BE;
+	opacity: 0.5;
+	border-radius: 4rpx;
+}
+.middle-title {
+	height: 80rpx;
+	width: 100%;
+	line-height: 80rpx;
+	text-align: center;
+}
+.middle-btn > button {
+	background-color: #11d6d3;
+	color: #fff;
+	width: 460rpx;
+}
+.middle-title > uni-icon {
+	float: left;
+	margin-top: 10rpx;
+	margin-left: 20rpx;
+}
+.middle-title > ._span {
+	float: right;
+	color: #09b8b5;
+	font-size: 32rpx;
+	margin-right: 40rpx;
+}
+.amount{
+	font-size:72rpx;
+	font-weight:bold;
+}
+.select_payment ._li {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	padding: 10rpx 0;
+}
+.select_payment ._li:first-child {
+	padding-bottom: 0;
+	border-top:1px solid #ddd;
+}
+.select_payment ._li image {
+	width: 80rpx;
+	float: left;
+	margin-top: 10rpx;
+}
+.select_payment ._li ._span {
+	display: inline-block;
+	margin-left: 30rpx;
+	line-height: 80rpx;
+}
+.select_payment ._li .radio {
+	float: right;
+}
+.select_payment ._li ._span ._p {
+	height: 0;
+	font-size: 28rpx;
+	color: #999999;
+}
+.reCharge-charge{
+	background-color: #11d6d3;
+	color: #fff;
+	width: 678rpx;
+	height:88rpx;
+	line-height: 88rpx;
+	margin:46rpx auto;
+}
+.chooseWay{
+	text-align:left;
+	margin-left:30rpx;
+	color:#999;
+}
+

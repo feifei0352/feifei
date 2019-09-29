@@ -1,0 +1,72 @@
+
+page {
+	background: #f5f5f5;
+}
+.request-contain {
+	background: #fff;
+	padding: 0 36rpx 42rpx 36rpx;
+	margin-top: 40rpx;
+}
+.choose-date {
+	width: 100%;
+	font-size: 32rpx;
+	line-height: 100rpx;
+	color: #999999;
+	border-bottom: 1rpx solid #ebebeb;
+}
+.reason {
+	padding-top: 36rpx;
+	color: #999999;
+}
+.reason > textarea {
+	font-size: 30rpx;
+	color: #000;
+	margin-top: 20rpx;
+}
+.submit {
+	width: 678rpx;
+	height: 88rpx;
+	background: rgba(222, 224, 224, 1);
+	border-radius: 4px;
+	color: #fff;
+	font-size: 32rpx;
+}
+.request-message {
+	padding: 36rpx;
+	color: #999999;
+	font-size: 28rpx;
+}
+.request-warn {
+	margin: 10rpx 0;
+}
+.zhi {
+	display: inline-block;
+	float: right;
+	color: #000;
+}
+.qizu > text {
+	display: inline-block;
+	float: right;
+	color: #000;
+}
+.hint {
+	width: 166rpx;
+	height: 166rpx;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	color: #fff;
+	font-size: 28rpx;
+	border-radius: 30rpx;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.hint > image {
+	width: 56rpx;
+	height: 40rpx;
+	margin-top: 40rpx;
+}
+

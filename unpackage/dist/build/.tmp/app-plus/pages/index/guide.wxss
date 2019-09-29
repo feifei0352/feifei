@@ -1,0 +1,52 @@
+
+page,
+.content {
+	width: 100%;
+	height: 100%;
+	background-size: 100% auto;
+	padding: 0;
+}
+.swiper {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+}
+.swiper-item {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.swiper-item-img {
+	width: 100%;
+}
+.swiper-item-img image {
+	width: 100%;
+	height: 100%;
+}
+.jump-over,
+.experience {
+	position: absolute;
+	height: 60rpx;
+	line-height: 60rpx;
+	padding: 0 40rpx;
+	border-radius: 30rpx;
+	font-size: 32rpx;
+	color: #454343;
+	border: 1px solid #454343;
+	z-index: 999;
+}
+.jump-over {
+	right: 45rpx;
+	top: 25rpx;
+}
+.experience {
+	right: 50%;
+	margin-right: -105rpx;
+	bottom: 0;
+}
+

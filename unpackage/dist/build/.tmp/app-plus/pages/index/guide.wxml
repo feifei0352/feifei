@@ -1,0 +1,1 @@
+<view class="content"><swiper class="swiper" autoplay="{{autoplay}}" duration="{{duration}}"><swiper-item><view class="swiper-item"><view class="swiper-item-img"><image src="../../static/guide/startpage.png" mode="aspectFit"></image></view></view></swiper-item></swiper></view>

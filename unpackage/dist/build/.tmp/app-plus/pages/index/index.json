@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "E租客",
+  "navigationBarBackgroundColor": "#2CC3BE",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-badge": "/components/uni-badge/uni-badge"
+  }
+}

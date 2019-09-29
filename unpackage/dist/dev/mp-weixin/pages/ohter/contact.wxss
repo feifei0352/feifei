@@ -1,0 +1,31 @@
+
+.logo {
+	height: 340rpx;
+	text-align: center;
+	position: relative;
+}
+.logo-img {
+	width: 160rpx;
+	height: 160rpx;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.contact-list{
+	background-color: #FFFFFF;
+	height: 100rpx;
+	line-height: 100rpx;
+	color: #999999;
+	font-size: 30rpx;
+}
+.contact-left {
+	margin-left: 36rpx;
+}
+.contact-right{
+	margin-left: 92rpx;
+	color: #000000;
+}
+

@@ -1,0 +1,19 @@
+
+.stars.data-v-20491290{
+	height:100rpx;
+	line-height: 100rpx;
+}
+.stars>image.data-v-20491290{
+	width:42rpx;
+	height:42rpx;
+	margin-right:32rpx;
+	vertical-align: middle;
+}
+.my-title.data-v-20491290{
+	vertical-align: middle;
+	display:inline-block;
+	font-size:32rpx;
+	color:#999999;
+	margin-right:120rpx
+}
+

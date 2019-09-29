@@ -1,0 +1,67 @@
+
+.logo {
+	text-align: center;
+	height:322rpx;
+	position:relative;
+}
+.logo-area{
+	width:160rpx;
+	height:190rpx;
+	margin:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0
+}
+.logo-img {
+	width: 160rpx;
+	height: 160rpx;
+}
+.logo-area>view{
+	font-size:24rpx;
+	color:#999999;
+}
+.contact {
+	background-color: #ffffff;
+}
+.contact-list {
+	margin: 0 48rpx;
+	padding: 35rpx 0;
+	color: #999999;
+	border-bottom: 1rpx solid rgba(235, 237, 240, 1);
+	font-size: 30rpx;
+	position:relative;
+}
+.contact-list>image{
+	position:absolute;
+	top:20rpx;
+	left:610rpx;
+	width:66rpx;
+	height:66rpx
+}
+image.ewm{
+	left:220rpx;
+	width:180rpx;
+	height:180rpx
+}
+.contact-list>._p{
+	position: absolute;
+	top: 220rpx;
+	left:220rpx;
+}
+.contact-list:last-child {
+	border-bottom: none;
+}
+.contact-left {
+	display: inline-block;
+	width: 150rpx;
+	vertical-align: top;
+}
+.contact-right {
+	margin-left: 92rpx;
+	display: inline-block;
+	width: 400rpx;
+	color: #000000;
+}
+

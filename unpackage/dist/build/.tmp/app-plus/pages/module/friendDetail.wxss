@@ -1,0 +1,86 @@
+
+page {
+	background: #f5f5f5;
+}
+.friendDetail-basic {
+	background: #fff;
+	padding: 50rpx 0;
+	position:relative;
+}
+.friendDetail-photo,
+.friendDetail-name,
+.friendDetail-area {
+	text-align: center;
+}
+.friendDetail-photo > image {
+	height: 158rpx;
+	width: 158rpx;
+}
+.friendDetail-name > image {
+	height: 27rpx;
+	width: 20rpx;
+	margin-left: 8rpx;
+}
+.friendDetail-area {
+	font-size: 26rpx;
+	font-weight: 500;
+	color: #666666;
+	margin-top: 18rpx;
+}
+.friendDetail-other {
+	background: #fff;
+	font-size: 32rpx;
+	padding: 34rpx 34rpx 0 34rpx;
+	margin-top: 18rpx;
+}
+.friendDetail-other > view {
+	padding-bottom: 34rpx;
+}
+.friendDetail-phone > image {
+	width: 100rpx;
+	height: 100rpx;
+	vertical-align: middle;
+}
+.friendDetail-title {
+	color: #999999;
+	margin-right: 51rpx;
+}
+.friendDetail-complaint {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 132rpx;
+	line-height:132rpx;
+	background: #fff;
+}
+.friendDetail-complaint > view {
+	width: 678rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	border: 2rpx solid rgba(252, 174, 71, 1);
+	border-radius: 4rpx;
+	color: #f2a43d;
+	font-weight: bold;
+	text-align: center;
+}
+.datedSymbol{
+	width:116rpx;
+	height:42rpx;
+	line-height:42rpx;
+	text-align: center;
+	background:rgba(240,240,240,1);
+	color:#ADADAD;
+	font-size:24rpx;
+	font-weight:bold;
+	border-radius:6rpx;
+	position:absolute;
+	top:56rpx;
+	left:40rpx
+}
+

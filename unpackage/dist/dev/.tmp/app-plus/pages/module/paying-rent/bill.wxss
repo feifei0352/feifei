@@ -1,0 +1,101 @@
+
+.contain.data-v-9441a5d0{
+		font-size:32rpx;
+		color:#333333;
+		background:#fff;
+		padding:0 21rpx;
+}
+.origin.data-v-9441a5d0{
+		display:inline-block;
+		margin-top:18rpx;
+}
+.origin>text.data-v-9441a5d0{
+		display:block;
+		margin-bottom:31rpx;
+}
+.origin>text.data-v-9441a5d0:first-child{
+		color:#999999;
+}
+.bill-head>image.data-v-9441a5d0{
+		width:150rpx;
+		height:150rpx;
+		float:right;
+}
+.bill-total.data-v-9441a5d0{
+		margin-top:30rpx;
+		height:103rpx;
+		background:rgb(36,192,207);
+		padding:52rpx;
+		border-radius:12rpx;
+}
+.bill-total>view.data-v-9441a5d0{
+		float:left;
+		width:49%;
+		text-align: center;
+		color:#fff;
+		font-size:48rpx;
+}
+.bill-total>view>text.data-v-9441a5d0:first-child{
+		display:block;
+		font-size:30rpx;
+		color:rgba(92,242,237,1);
+		margin-bottom:31rpx;
+}
+.left-date.data-v-9441a5d0,.payway.data-v-9441a5d0{
+		color:#999999;
+		font-size:24rpx;
+}
+.money.data-v-9441a5d0{
+		color:#2FC38D;
+		font-weight:bold;
+}
+.item-left.data-v-9441a5d0{
+		float:left;
+		line-height:60rpx;
+}
+.item-right.data-v-9441a5d0{
+		float:right;
+		text-align: right;
+		line-height:60rpx;
+}
+.bill-list.data-v-9441a5d0{
+		margin-top:17rpx;
+}
+.bill-item.data-v-9441a5d0{
+		overflow: hidden;
+		border-bottom:1rpx solid #F5F5F5;
+		padding:20rpx 0;
+}
+.top.data-v-9441a5d0{
+		padding:30rpx 40rpx;
+}
+.noway.data-v-9441a5d0{
+		color:#B8B8B8;
+		float:left;
+}
+.sure.data-v-9441a5d0{
+		color:#09B8B5;
+		float:right;
+}
+.house-list.data-v-9441a5d0{
+		padding:70rpx 0 50rpx 0;
+}
+.row.data-v-9441a5d0{
+		text-align: center;
+		font-size:36rpx;
+		color:#BBBBBB;
+		height:70rpx;
+}
+.active-area.data-v-9441a5d0{
+		height:70rpx;
+		width:480rpx;
+		border-top:2rpx solid #00B8B5;
+		border-bottom:2rpx solid #00B8B5;
+		position:absolute;
+		top:50rpx;
+		left:135rpx;
+}
+.active.data-v-9441a5d0{
+		color:#333333;
+}
+

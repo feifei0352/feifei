@@ -1,0 +1,69 @@
+
+page{
+		background:#F5F5F5;
+}
+.friendDetail-basic{
+		background:#fff;
+		padding:50rpx 0
+}
+.friendDetail-photo,.friendDetail-name,.friendDetail-area{
+		text-align:center;
+}
+.friendDetail-photo>image{
+		height:158rpx;
+		width:158rpx;
+}
+.friendDetail-name>image{
+		height:27rpx;
+		width:20rpx;
+		margin-left:8rpx
+}
+.friendDetail-area{
+		font-size:26rpx;
+		font-weight:500;
+		color:#666666;
+		margin-top:18rpx;
+}
+.friendDetail-other{
+		background:#fff;
+		font-size:32rpx;
+		padding:34rpx 34rpx 0 34rpx;
+		margin-top:18rpx;
+}
+.friendDetail-other>view{
+		padding-bottom:34rpx
+}
+.friendDetail-phone>image{
+		width:100rpx;
+		height:100rpx;
+		vertical-align: middle;
+}
+.friendDetail-title{
+		 color:#999999;
+		 margin-right:51rpx;
+}
+.friendDetail-complaint{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		height:132rpx;
+		background:#fff
+}
+.friendDetail-complaint>view{
+		width:678rpx;
+		height:88rpx;
+		line-height: 88rpx;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+		border:2rpx solid rgba(252,174,71,1);
+		-webkit-border-radius:4rpx;
+		        border-radius:4rpx;
+		color:#F2A43D;
+		font-weight:bold;
+		text-align:center
+}
+

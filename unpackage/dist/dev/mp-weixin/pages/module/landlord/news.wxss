@@ -1,0 +1,129 @@
+
+page {
+	background: #f2f2f2;
+}
+.top {
+	width: 100%;
+	text-align: center;
+	line-height: 42px;
+	white-space: nowrap;
+	position: relative;
+	background: #fff;
+}
+.contact-tabbar {
+	width: 50%;
+	font-size: 18px;
+	height: 42px;
+	display: inline-block;
+	color: #000;
+}
+.tabbar-bottom>._span {
+	border-bottom: 4px solid #22C7C7;
+	padding-bottom: 6px;
+}
+.contact-item {
+	background: #fff;
+	margin: 30rpx 0;
+}
+swiper,swiper-item {
+	/* min-height: 600px; */
+	overflow-y: auto;
+}
+.contact-item>._p {
+	font-size: 30rpx;
+	font-weight: 500;
+	color: rgba(102, 102, 102, 1);
+	padding: 36rpx 39rpx;
+	border-bottom: 1px solid rgba(235, 235, 235, 1);
+}
+.contact-item-year {
+	padding: 36rpx 39rpx;
+}
+.contact-item-year>._h3 {
+	font-size: 30rpx;
+	color: #333333;
+	margin-bottom: 10rpx;
+}
+.contact-item-year>._p {
+	font-size: 30rpx;
+	color: #999999
+}
+.list>._li{
+	padding: 40rpx;
+}
+.list ._span{
+	color: #C7C7C7;
+}
+.list ._span.time{
+	color: #09B8B5;
+}
+.list ._li{
+	font-size: 32rpx;
+}
+.content ._li{
+	padding:0 30rpx;
+	line-height: 60rpx;
+}
+.footer ._span{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	border-top:1px solid #ddd;
+	padding: 30rpx 0;
+}
+.footer ._span:first-child{
+	border-right: 1px solid #ddd;
+	color: #09B8B5;
+}
+.describe{
+	font-size: 32rpx;
+}
+.uni-card:after{
+	border:none;
+}
+.describe>._p{
+	line-height: 80rpx;
+	margin-bottom: 30rpx;
+}
+.describe ._span.footer_right{
+	padding-top: 16rpx;
+	border-top: 1px solid #eee;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+	font-size: 28rpx;
+}
+.describe_btn{
+	background-color: #fff;
+	border:1px solid #09B8B5;
+	color: #09B8B5;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: right;
+	margin-top: 10rpx;
+}
+.bottom-title{
+	padding-top: 40rpx;
+}
+.bottom-btn button{
+	background: #FFF;
+	border:1px solid #09B8B5;
+	color:#09B8B5 ;
+}
+.bottom-btn button:first-child{
+	margin-right: 40rpx;
+}
+.bottom-btn button:last-child{
+	margin-left: 40rpx;
+}
+.none{
+	text-align: center;
+	font-size:30rpx;
+	color:#333333;
+	margin-top:224rpx;
+}
+.none image{
+	width:169rpx;
+	height:169rpx
+}
+

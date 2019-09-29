@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"out-btn { width: 100%; height: ",[0,100],"; margin: 0 auto; text-align: center; line-height: ",[0,100],"; background: #ffffff; color: #09b8b5; margin-top: ",[0,18],"; }\n",],undefined,{path:"./pages/ohter/setting.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ohter/setting.wxml') } }));

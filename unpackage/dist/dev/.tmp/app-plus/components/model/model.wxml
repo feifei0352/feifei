@@ -1,0 +1,1 @@
+<block wx:if="{{show}}"><view data-event-opts="{{[['touchmove',[['',['$event']]]]]}}" catchtouchmove="__e" class="data-v-0b2fbf38"><view data-event-opts="{{[['tap',[['hide',['$event']]]]]}}" class="bg data-v-0b2fbf38" bindtap="__e"></view><view data-ref="mypop" class="pop data-v-0b2fbf38 vue-ref"><slot></slot></view></view></block>

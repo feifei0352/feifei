@@ -1,0 +1,85 @@
+
+.detail-contain{
+	  padding:40rpx 37rpx 50rpx 37rpx;
+}
+.detail-status{
+	  font-family:PingFang-SC-Bold;
+	  font-size:32rpx;
+	  color:#333333;
+	  font-weight:bold;
+	  height:42rpx;
+	  line-height:42rpx;
+	  margin-bottom:40rpx
+}
+.contract-status{
+		display:inline-block;
+		width:142rpx;
+		height:42rpx;
+		border-radius:4px;
+		font-size:24rpx;
+		line-height:42rpx;
+		font-weight:bold;
+		text-align:center;
+		margin-left:32rpx;
+}
+#disable{
+		 color:#ADADAD;
+		 background:#F0F0F0
+}
+#usable{
+		 color:#E89827;
+		 background:rgba(252,241,225,1);
+}
+.information{
+		height:70rpx;
+		font-size:32rpx;
+		font-family:PingFang-SC-Medium;
+		font-weight:500;
+		color:rgba(173,173,173,1);
+		line-height:70rpx;
+}
+.information>text{
+		font-weight:500;
+		color:rgba(51,51,51,1);
+		margin-left:49rpx
+}
+.contract-picture,.contract-picture image{
+		width:640rpx;
+		height:864rpx;
+		margin:0 auto;
+		background:rgba(211,211,211,1);
+		border-radius:6rpx;
+}
+.page{
+		 text-align:center;
+		 margin-top:40rpx;
+}
+.page>._span{
+		 margin:0 30rpx
+}
+.contractDetailBottom{
+		 height:132rpx;
+}
+.behaviour{
+		 width:100%;
+		 height:132rpx;
+		 line-height:132rpx;
+		 position:fixed;bottom:0;left:0;
+		 background:#fff;
+		 text-align:center;
+		 border-top:1rpx solid rgba(225,230,229,1);
+}
+.behaviour>._span{
+		 display:inline-block;
+		 width:324rpx;
+		 height:88rpx;
+		 background:#2FC8D6;
+		 border-radius:4rpx;
+		 text-align:center;
+		 line-height:88rpx;
+		 font-size:32rpx;
+		 color:#fff;
+		 font-weight:bold;
+		 margin:0 15rpx;
+}
+

@@ -1,0 +1,73 @@
+
+.content {
+	width: 100%;
+}
+.status_bar {
+	height: 5rem;
+	width: 100%;
+	background-color: #2cc3be;
+}
+.wrap {
+	position: relative;
+	bottom: 3.4rem;
+}
+.index-head {
+	width: 90%;
+	height: 8rem;
+	background-color: #ffffff;
+	-webkit-border-radius: 0.3rem;
+	        border-radius: 0.3rem;
+	-webkit-box-shadow: 0 0 1rpx 1rpx #f3f3f3;
+	        box-shadow: 0 0 1rpx 1rpx #f3f3f3;
+	margin: 0 4.5%;
+}
+.index-border {
+	float: right;
+	width: 20%;
+	margin-left: 0.3rem;
+	height: 3.4rem;
+	-webkit-border-bottom-left-radius: 100%;
+	        border-bottom-left-radius: 100%;
+	background-color: #ffb629;
+}
+.index-rent {
+	width: 100%;
+	display: block;
+	font-size: 0.7rem;
+	color: #ffffff;
+	margin: 1rem 0 0 1.1rem;
+}
+.news {
+	margin-left: 1rem;
+	font-size: 0.8rem;
+}
+.news ._span {
+	margin-left: 0.5rem;
+}
+.index-address {
+	padding: 1rem;
+}
+.index-houseUser {
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	color: #949494;
+}
+.divider {
+	width: 80%;
+	height: 1rpx;
+	background: rgba(225, 230, 229, 1);
+	margin-left: 2rem;
+}
+.index-map {
+	padding-left: 1rem;
+	padding-top: 1rem;
+	color: #949494;
+}
+.index-icon {
+	margin-top: 2%;
+}
+.foot-bg {
+	margin-top: 3%;
+	text-align: center;
+}
+

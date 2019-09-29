@@ -1,0 +1,44 @@
+
+.container{
+	background:#fff;
+}
+page{
+	background:#fff;
+}
+.warn{
+	display:block;
+	width:100%;
+	text-align: center;
+	color:#F78640;
+	padding:44rpx 0;
+	font-size:30rpx;
+}
+.forms{
+	text-align: center;
+}
+.inputs{
+	height:88rpx;
+}
+.inputs>image{
+	width:50rpx;
+	height:50rpx;
+	display:inline-block;
+	vertical-align: middle;
+	margin-right:28rpx;
+}
+.inputs>input{
+	display:inline-block;
+	width:609rpx;
+	height:88rpx;
+	vertical-align: middle;
+	border-bottom:1rpx solid #F0F0F0;
+	text-align: left;
+}
+.forms>button{
+	width:694rpx;
+	height:88rpx;
+	background:#099C99;
+	color:#fff;
+	margin-top:57rpx;
+}
+

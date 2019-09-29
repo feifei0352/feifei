@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "ffffff",
+  "navigationBarTitleText": "提现",
+  "usingComponents": {
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item",
+    "cmd-avatar": "/components/cmd-avatar/cmd-avatar"
+  }
+}

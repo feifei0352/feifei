@@ -1,0 +1,28 @@
+
+.title{
+	color:#333333;
+	font-size:40rpx;
+	font-weight: bold;
+	padding:40rpx 15rpx 0 15rpx
+}
+.nextStep{
+	width:694rpx;
+	height:88rpx;
+	background:#099C99;
+	color:#fff;
+	line-height:88rpx;
+	font-size:32rpx;
+	margin-top:20rpx;
+	margin-bottom:30rpx
+}
+.small-title{
+	font-size:30rpx;
+}
+.get-pic{
+	width:148rpx;
+	height:148rpx;
+	display: block;
+	margin-top:30rpx;
+	margin-bottom:20rpx;
+}
+

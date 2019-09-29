@@ -1,0 +1,122 @@
+
+.lease-warn.data-v-10eb7190{
+		background:#FFEBD6;
+		color:#FA7828;
+		font-size: 26rpx;
+		padding:19rpx 56rpx 20rpx 37rpx;
+		line-height:36rpx;
+		position: fixed;
+		top:0;
+		left:0;
+}
+.lease-warn>image.data-v-10eb7190{
+		width:24rpx;
+		height:24rpx;
+		vertical-align: middle;
+		margin-right:8rpx
+}
+.lease-container.data-v-10eb7190:before{
+		display:block;
+		content:'';
+		height:110rpx;
+}
+.lease-container.data-v-10eb7190:after{
+		display:block;
+		content:'';
+		height:128rpx;
+}
+.lease-list.data-v-10eb7190{
+		padding:20rpx 28rpx;
+}
+.lease-item.data-v-10eb7190{
+		background:#fff;
+		border-radius:10rpx;
+		margin-bottom:20rpx;
+}
+.item-title.data-v-10eb7190{
+		color:#333333;
+		font-size:30rpx;
+		font-weight: bold;
+        padding:30rpx 20rpx 0 20rpx;
+		line-height:54rpx;
+}
+.item-title.data-v-10eb7190:after{
+		content:'';
+		display:block;
+		width:662rpx;
+		height:0;
+		margin-top:20rpx;
+		border-bottom:1rpx solid #F0F0F0;
+}
+.item-title>image.data-v-10eb7190{
+		width:54rpx;
+		height:54rpx;
+		vertical-align: middle;
+		margin-bottom:8rpx;
+		margin-right:17rpx;
+}
+.info-item.data-v-10eb7190{
+		width:613rpx;
+		height:88rpx;
+		line-height:88rpx;
+		font-size:26rpx;
+		color:#333333;
+		padding:0 40rpx;
+}
+.info-item>text.data-v-10eb7190{
+		float:right;
+}
+.info-item>text.data-v-10eb7190:first-child{
+		color:#777777;
+		text-align: left;
+		float:left;
+}
+.confirm-bottom.data-v-10eb7190{
+		width:100%;
+		height:107rpx;
+		line-height: 107rpx;
+		background:#fff;
+		position:fixed;
+		bottom:0;
+		left:0;
+		padding:21rpx 42rpx;
+}
+.contact.data-v-10eb7190{
+		color:#333333;
+		font-size:20rpx;
+		text-align: center;
+		float:left;
+		margin-right:26rpx;
+}
+.contact>image.data-v-10eb7190{
+		display:block;
+		width:78rpx;
+		height:56rpx;
+		margin-bottom:-36rpx;
+		margin-top:10rpx;
+}
+.contact>view.data-v-10eb7190{
+		clear:both;
+}
+.my-buttons.data-v-10eb7190{
+		float:left;
+		margin-top:12rpx
+}
+.my-buttons>button.data-v-10eb7190{
+		height:88rpx;
+		width:330rpx;
+		line-height:88rpx;
+		border:1rpx solid rgba(17,214,211,1);
+		border-radius:4rpx;
+		color:#0DBFBC;
+		font-size:32rpx;
+		display:inline-block;
+		margin-right:18rpx;
+}
+.my-buttons>button.data-v-10eb7190:last-child{
+		background:rgba(255,109,36,1);
+		width:220rpx;
+		border:none;
+		color:#fff;
+}
+

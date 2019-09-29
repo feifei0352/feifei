@@ -1,0 +1,1 @@
+<view class="stars data-v-20491290"><text hidden="{{!(tittle)}}" class="my-title data-v-20491290">{{tittle}}</text><block wx:for="{{rate}}" wx:for-item="item" wx:for-index="index" wx:key="index"><image src="{{item.url}}" data-event-opts="{{[['tap',[['select',[index]]]]]}}" bindtap="__e" class="data-v-20491290"></image></block></view>

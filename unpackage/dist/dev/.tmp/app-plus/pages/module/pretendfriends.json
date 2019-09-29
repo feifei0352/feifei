@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的租友",
+  "navigationBarBackgroundColor": "#2CC3BE",
+  "usingComponents": {
+    "cmd-avatar": "/components/cmd-avatar/cmd-avatar",
+    "cmd-cell-item": "/components/cmd-cell-item/cmd-cell-item",
+    "cmd-icon": "/components/cmd-icon/cmd-icon"
+  }
+}
